@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjMzOjI5LjkwNTgyMSIsInVzZXJfaWQiOiIwYmEwZDAyMy04OTY3LTQ0ZjYtOGE5Mi1kNjM4OWEwM2ZkMzMifQ.prXHibSbSYh_Vx1dBk8FGz5uqFqCJotbTkhYmSy0vSI'\
+ -H 'content-length: 371'\
+ -H 'content-type: application/json'\
+ -d '{"title":"These hand network we small shoulder leave there.","courseId":"c54840af-95cf-4869-851e-520e863d46c8","maxScore":55,"minScore":27,"orderIndex":69,"description":"Level for forward do. Fire PM by. Never billion player south family during audience.\nMeet from once all song thus shoulder. Structure public address long raise stay career.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjMzOjI5LjMyMjYwNyIsInVzZXJfaWQiOiIwNTY3OTY0Yy0zZDc4LTQ0NGEtYTM1Yi05Zjk1YTEwNWMxMDkifQ.vwIFc2_0RaIEFotyZ7ZW7tCatF-kdgh8R3um0D8lVC8'\
+ -H 'content-length: 346'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Theory two board bag cause for.","maxScore":82,"minScore":9,"description":"Economy especially would result again action seven. Understand than we by woman ground one. Family avoid fire into paper.","previewFileId":"753ae41a-72e6-401c-aa0d-260859ab418f","estimatedTime":"5 weeks","createdByUserId":"0567964c-3d78-444a-a35b-9f95a105c109"}'

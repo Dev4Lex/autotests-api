@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/exercises/d6489930-e764-4b5a-82f7-7cbdd11f5eb5\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjMzOjI5LjMyMjYwNyIsInVzZXJfaWQiOiIwNTY3OTY0Yy0zZDc4LTQ0NGEtYTM1Yi05Zjk1YTEwNWMxMDkifQ.vwIFc2_0RaIEFotyZ7ZW7tCatF-kdgh8R3um0D8lVC8'\
+ -H 'content-length: 309'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Or quickly write edge radio list new company.","maxScore":54,"minScore":1,"orderIndex":3,"description":"Account apply fall wall. Home price south front understand change.\nBase doctor begin young enter company too production. Time truth table show indicate party century.","estimatedTime":"3 weeks"}'

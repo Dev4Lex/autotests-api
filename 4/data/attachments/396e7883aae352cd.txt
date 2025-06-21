@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjMzOjI5LjMyMjYwNyIsInVzZXJfaWQiOiIwNTY3OTY0Yy0zZDc4LTQ0NGEtYTM1Yi05Zjk1YTEwNWMxMDkifQ.vwIFc2_0RaIEFotyZ7ZW7tCatF-kdgh8R3um0D8lVC8'\
+ -H 'content-length: 338'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Design ten difference first most relate though.","courseId":"f1dfb7bd-a403-434a-8f94-7687b57b1dbf","maxScore":58,"minScore":23,"orderIndex":23,"description":"Seek strategy game law note painting.\nStaff chair hotel run learn. Want line never long particularly. Between form prepare treatment realize.","estimatedTime":"7 weeks"}'

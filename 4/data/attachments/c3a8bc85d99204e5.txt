@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjMzOjI4LjE0OTM4NiIsInVzZXJfaWQiOiIzMjM3ZDcwMC1lZTBmLTQ0NTYtYWRhYS1mYmY2ZjMzMTVlMTkifQ.kz5QTbONdQ817ENrxtxzPBBsxSt5054xHnqy5Ea8CTA'\
+ -H 'content-length: 421'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Position sea despite these hair.","maxScore":74,"minScore":18,"description":"Type type action adult treatment color actually nature. Receive partner avoid hold four door from. List help wide party war least political decade.\nDemocratic work door second. Stay join go me.","previewFileId":"f9dac753-28a2-451e-b847-f12f1a420df8","estimatedTime":"3 weeks","createdByUserId":"3237d700-ee0f-4456-adaa-fbf6f3315e19"}'

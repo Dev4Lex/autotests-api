@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/courses/5947c57e-1b53-4413-8cd5-7195afef60e3\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjMzOjI2LjY3NTQ1NCIsInVzZXJfaWQiOiI4ODUwN2ExMi1kNWQ1LTRhZmQtYjBlZi1hZjIwYjUxZjAyNGEifQ._LdnqGv-s1oHmnFYBSmiodFk9_Xp80oa59MyIsVFcAk'\
+ -H 'content-length: 286'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Very clear talk foot public.","maxScore":75,"minScore":14,"description":"Fast hour chance Mr life tonight lose. Every matter community cost six.\nDespite they much herself necessary activity financial character. Matter claim drop father suffer per.","estimatedTime":"1 weeks"}'

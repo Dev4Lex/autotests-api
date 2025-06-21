@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjMzOjI5LjkwNTgyMSIsInVzZXJfaWQiOiIwYmEwZDAyMy04OTY3LTQ0ZjYtOGE5Mi1kNjM4OWEwM2ZkMzMifQ.prXHibSbSYh_Vx1dBk8FGz5uqFqCJotbTkhYmSy0vSI'\
+ -H 'content-length: 386'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Party notice back development.","maxScore":57,"minScore":18,"description":"Exactly somebody city picture child. Eye every religious life author. Day institution perform speech almost away concern. Total front bring class that whom real.","previewFileId":"dde63de9-763a-4dff-9a22-e30aa4c1cc9f","estimatedTime":"6 weeks","createdByUserId":"0ba0d023-8967-44f6-8a92-d6389a03fd33"}'

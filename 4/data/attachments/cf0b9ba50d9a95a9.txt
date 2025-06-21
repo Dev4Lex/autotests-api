@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjMzOjI2LjY3NTQ1NCIsInVzZXJfaWQiOiI4ODUwN2ExMi1kNWQ1LTRhZmQtYjBlZi1hZjIwYjUxZjAyNGEifQ._LdnqGv-s1oHmnFYBSmiodFk9_Xp80oa59MyIsVFcAk'\
+ -H 'content-length: 436'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Community cover nothing then building travel.","maxScore":68,"minScore":18,"description":"Allow car find question beautiful. Himself best half above enough. Cup rest people who professor million audience table.\nGoal color to professional ahead chair. Put amount young avoid three whom.","previewFileId":"00697450-12f4-4032-a9a0-9db3bfa327a0","estimatedTime":"8 weeks","createdByUserId":"88507a12-d5d5-4afd-b0ef-af20b51f024a"}'
