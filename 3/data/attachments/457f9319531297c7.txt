@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjI4OjM2LjQ2OTgxNiIsInVzZXJfaWQiOiI4YTIxNDVjYi01MDU5LTRhZTItYTZjZC0yYjFlMGM5ZTIwNDAifQ.1BHS4VTKqifce2Tzv3BAIsEGSLnjVVw6q9a4DEAnHsc'\
+ -H 'content-length: 331'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Since fine picture stay create too ahead.","maxScore":58,"minScore":27,"description":"Girl evidence commercial cup push. Mr meet similar recent art. Relate assume choose discussion.","previewFileId":"55ee1c7c-68f7-4f18-a54b-f9bbb0c3673c","estimatedTime":"5 weeks","createdByUserId":"8a2145cb-5059-4ae2-a6cd-2b1e0c9e2040"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjI4OjM2LjQ2OTgxNiIsInVzZXJfaWQiOiI4YTIxNDVjYi01MDU5LTRhZTItYTZjZC0yYjFlMGM5ZTIwNDAifQ.1BHS4VTKqifce2Tzv3BAIsEGSLnjVVw6q9a4DEAnHsc'\
+ -H 'content-length: 346'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Get guess seat room sure compare course.","courseId":"c151646d-447e-4361-83f1-2c44844951c3","maxScore":97,"minScore":17,"orderIndex":87,"description":"Loss course should part. Her yeah deep them focus still season.\nFloor article technology social what reason. Down look wrong from television rest material.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjI4OjM0LjcxMTcwOSIsInVzZXJfaWQiOiJiMTU5ODExYy1iZTc3LTQ1ODQtYTBlZC0wYWY5NGY2ZDQ4NDIifQ.cSmnZG49sQwg8AfysjXGInEydXfMLF7TvN6VqiY7vG4'\
+ -H 'content-length: 328'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Finish type feeling care.","maxScore":88,"minScore":25,"description":"Reveal letter specific far store some. As floor mean last. Beyond computer modern remain cause whether fear.","previewFileId":"541815cd-a635-4c9e-ba59-a74fcb852ace","estimatedTime":"4 weeks","createdByUserId":"b159811c-be77-4584-a0ed-0af94f6d4842"}'

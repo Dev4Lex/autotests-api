@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjI4OjM1LjI5ODUyNiIsInVzZXJfaWQiOiJkMjRmYjI3Ny04ZmYzLTQxNWQtYTJkZC1jNTRkMTY3MTFjNWEifQ.Xyb5gpZZNNh5QxSVGuUypRgsK-JbU2mEnHTVbXez1zE'\
+ -H 'content-length: 422'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Deep after speech decision including hear.","maxScore":55,"minScore":8,"description":"Third record available develop grow. Ability gun picture significant look yeah.\nDebate or simply evidence loss I sound. Strategy wish price popular star. Check style before health food.","previewFileId":"85bbaa3f-c581-49c9-994f-136b28bad167","estimatedTime":"9 weeks","createdByUserId":"d24fb277-8ff3-415d-a2dd-c54d16711c5a"}'

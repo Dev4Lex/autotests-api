@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjI4OjM4LjI2ODIyOSIsInVzZXJfaWQiOiI0ZmYzNDllNi1mMDY3LTRmM2UtYTkyMS04OTM1NTZjYTg0NjIifQ.HWy4j8FHcWoZYiyKHcKlj_HZbJRty53RwtZfEnCwy7g'\
+ -H 'content-length: 410'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Give buy clearly although food clear daughter.","maxScore":72,"minScore":16,"description":"When data industry reveal. Wife memory sister could. Field car away them.\nWithin dog season pick particular father bad material. Where house bring number method manage.","previewFileId":"520da072-b60c-4788-8111-74ed6de39e3f","estimatedTime":"5 weeks","createdByUserId":"4ff349e6-f067-4f3e-a921-893556ca8462"}'

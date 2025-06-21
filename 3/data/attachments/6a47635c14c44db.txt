@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjI4OjM1Ljg4NzU4MiIsInVzZXJfaWQiOiI2YmY1MjA4ZC1kNGI5LTQ5YzItYWUxYi03MmYwMTU1OWNmMWQifQ.5JbjaIKW0ZBb-2DwsUnAcpwTmwcAJacx_aghOogsQUQ'\
+ -H 'content-length: 343'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Since want a like stop.","courseId":"c5ac14b2-064b-42de-aefa-7e2c87934c38","maxScore":67,"minScore":21,"orderIndex":79,"description":"Task with main idea raise each. Hospital song day action lead cup. Wrong will interest million night yes term.\nPattern ever memory scene close defense. Fast avoid strong.","estimatedTime":"4 weeks"}'

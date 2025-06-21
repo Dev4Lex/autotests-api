@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjI4OjM3LjY4Njg0MiIsInVzZXJfaWQiOiJkNDI5ZGFlNy0zNWIxLTQ1OWEtYTY1NC0wOWU2NWQ1YzdmODIifQ.7utZPqRDfh8q7qlowwcZAvp-_J2TWZsp7qBrn7L4Hik'\
+ -H 'content-length: 395'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Plant defense language us.","maxScore":77,"minScore":1,"description":"Former entire represent plant news natural degree. Something soldier day argue. That heart produce.\nIndicate fast big tend debate. Better certainly far probably public alone.","previewFileId":"f2bffbc4-1eea-4637-a1cc-7fb53ddfa93a","estimatedTime":"1 weeks","createdByUserId":"d429dae7-35b1-459a-a654-09e65d5c7f82"}'

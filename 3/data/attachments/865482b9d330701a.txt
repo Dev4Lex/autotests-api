@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjI4OjM1Ljg4NzU4MiIsInVzZXJfaWQiOiI2YmY1MjA4ZC1kNGI5LTQ5YzItYWUxYi03MmYwMTU1OWNmMWQifQ.5JbjaIKW0ZBb-2DwsUnAcpwTmwcAJacx_aghOogsQUQ'\
+ -H 'content-length: 354'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Daughter career security north like.","maxScore":64,"minScore":7,"description":"Meet drop tonight information hear. Common Congress identify note.\nFear line factor TV term. Within matter Mr home call my.","previewFileId":"c7add98e-5543-4853-bf86-431d2f238398","estimatedTime":"2 weeks","createdByUserId":"6bf5208d-d4b9-49c2-ae1b-72f01559cf1d"}'

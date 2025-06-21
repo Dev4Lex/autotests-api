@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjI4OjM3LjY4Njg0MiIsInVzZXJfaWQiOiJkNDI5ZGFlNy0zNWIxLTQ1OWEtYTY1NC0wOWU2NWQ1YzdmODIifQ.7utZPqRDfh8q7qlowwcZAvp-_J2TWZsp7qBrn7L4Hik'\
+ -H 'content-length: 286'\
+ -H 'content-type: application/json'\
+ -d '{"title":"View court wind your later case century.","courseId":"c894973e-26fe-40c9-9996-c17ef3025327","maxScore":98,"minScore":27,"orderIndex":13,"description":"Bag maintain machine onto him moment use. Goal people bit company better southern visit research.","estimatedTime":"2 weeks"}'
