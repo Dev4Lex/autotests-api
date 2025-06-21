@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjIwOjMwLjMyMjQyNSIsInVzZXJfaWQiOiJjZTVkZWZiZC0yMWZiLTQwOWYtYTA4My03ZDlkYzdlMjEyNzcifQ.IuteLR8UVDnMrIf42bGGhlLam0V6XQ8So2S6BrxPAok'\
+ -H 'content-length: 360'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Article threat hard.","maxScore":69,"minScore":2,"description":"Size bring fire no.\nEspecially teach fight unit whom establish. Identify exist read my ready drug.\nDo black lay six artist from. Former do they.","previewFileId":"13ab52cb-3e26-4156-ab29-9f8379c194fd","estimatedTime":"4 weeks","createdByUserId":"ce5defbd-21fb-409f-a083-7d9dc7e21277"}'

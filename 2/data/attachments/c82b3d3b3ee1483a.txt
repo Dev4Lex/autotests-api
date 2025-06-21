@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjIwOjI4LjUxNTQxMCIsInVzZXJfaWQiOiJjYTA1N2NhNi00MmExLTQwNzEtOWE3Yi03ZDZjYzkzMGQ0MjEifQ.tZqH4dKetAzLqZTsT-KeqOiqvBGrjNpVsxsbmpNzwXU'\
+ -H 'content-length: 398'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Decide however remember man population say sing.","maxScore":98,"minScore":16,"description":"Site expect tree training. Fire nature state decide tell walk. Vote either return strategy kitchen. Different president believe financial staff allow name.","previewFileId":"65af22b3-8273-4a8e-beb3-1c708f46d856","estimatedTime":"4 weeks","createdByUserId":"ca057ca6-42a1-4071-9a7b-7d6cc930d421"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/courses/abe3b333-6d4a-4ce2-b6b0-2f45004fcaf1\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjIwOjI4LjUxNTQxMCIsInVzZXJfaWQiOiJjYTA1N2NhNi00MmExLTQwNzEtOWE3Yi03ZDZjYzkzMGQ0MjEifQ.tZqH4dKetAzLqZTsT-KeqOiqvBGrjNpVsxsbmpNzwXU'\
+ -H 'content-length: 256'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Machine participant pull also.","maxScore":100,"minScore":4,"description":"Popular ten again argue program good. Station decision bag indicate election card forward argue. Relate mother summer process phone meet class.","estimatedTime":"9 weeks"}'

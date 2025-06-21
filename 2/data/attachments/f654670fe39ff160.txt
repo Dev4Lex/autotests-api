@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjIwOjI5Ljc0MTQyMSIsInVzZXJfaWQiOiI4MGRmODIyOS0wNTI0LTQ1ZjctYmQyYS03ZGIxNGNlZDBhZTIifQ.iGOgS-YLQnZ1rTRg9K-xQN58Wo53Ycm5g2zqaN2UOiY'\
+ -H 'content-length: 391'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Movement recent either evening place.","maxScore":74,"minScore":6,"description":"Catch who more wrong benefit. Piece various little behavior up that boy.\nWind poor claim make technology past father. Management policy old production suggest.","previewFileId":"76932678-f735-48b8-accc-e31cdd99bdb8","estimatedTime":"9 weeks","createdByUserId":"80df8229-0524-45f7-bd2a-7db14ced0ae2"}'

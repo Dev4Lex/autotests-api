@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjIwOjMyLjc1NDc2MSIsInVzZXJfaWQiOiI2NmE5NTEwYy1iMmE5LTQ3NTgtYjkxNi02OWFiYmUyZGFiMzMifQ.ez2s6hx71Y-FIECN9WgdnVrhr-NQOVorGBgMVahCDX0'\
+ -H 'content-length: 417'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Season bag maybe several.","maxScore":95,"minScore":30,"description":"East parent bank. Report try rock notice school less.\nCenter cut use however democratic soldier network three. Prevent them identify writer my father. Campaign person war agree coach way military.","previewFileId":"5f41aeb0-4fe5-4672-81e8-5559fcbb51f3","estimatedTime":"9 weeks","createdByUserId":"66a9510c-b2a9-4758-b916-69abbe2dab33"}'

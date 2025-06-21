@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjIwOjI5LjA5ODAyMyIsInVzZXJfaWQiOiI0NzczN2EwYy0yY2ZmLTRkOTMtYjkyNi1hNDE3MDUwY2IwMjMifQ.lx4JjqPfUH20ThlWMGGS2zt8nyNuiIcg6fVzLJxhMcw'\
+ -H 'content-length: 346'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Particular measure exist that job real detail.","maxScore":75,"minScore":7,"description":"Tough avoid budget thousand show upon security. Decade those high personal.\nLess toward himself research.","previewFileId":"8deb1d81-ec7a-4764-a37d-8859f6c9ccc6","estimatedTime":"1 weeks","createdByUserId":"47737a0c-2cff-4d93-b926-a417050cb023"}'

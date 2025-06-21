@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjIwOjMyLjc1NDc2MSIsInVzZXJfaWQiOiI2NmE5NTEwYy1iMmE5LTQ3NTgtYjkxNi02OWFiYmUyZGFiMzMifQ.ez2s6hx71Y-FIECN9WgdnVrhr-NQOVorGBgMVahCDX0'\
+ -H 'content-length: 290'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Imagine gas establish.","courseId":"bcd106b4-ae0b-4397-9221-8e397fffada1","maxScore":80,"minScore":5,"orderIndex":2,"description":"Network enough particularly executive pull. Top our court my traditional movie ever. Eat opportunity animal behind since.","estimatedTime":"2 weeks"}'
