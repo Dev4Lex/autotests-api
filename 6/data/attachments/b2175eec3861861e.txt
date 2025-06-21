@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIxOjQ3OjA5LjAzODY3MSIsInVzZXJfaWQiOiI2YmY2ZmVhYy0xY2Q5LTQ4MzUtYThjZS03MzdhZDJlZGJkZWMifQ.wl1vqERjemcJC5lIf8csXZwek2lPUqnAWeBREuYkuk0'\
+ -H 'content-length: 373'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Themselves describe discussion.","maxScore":76,"minScore":28,"description":"Allow myself student citizen politics he day. Local society best leader nice. Front almost else week job choose building star. Easy by type myself.","previewFileId":"2b52a99c-1c61-4ef4-887a-c0385a1635e5","estimatedTime":"7 weeks","createdByUserId":"6bf6feac-1cd9-4835-a8ce-737ad2edbdec"}'

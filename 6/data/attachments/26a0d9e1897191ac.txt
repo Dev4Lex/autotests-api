@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIxOjQ3OjA4LjQ1OTM3NSIsInVzZXJfaWQiOiI4YmIyYTlhMi0wYzQyLTQzNzMtYTYxYy1hZGI2NWEzNDYzZGUifQ.GwdOT4ATL84XgpfnF6BUyV4T319l1zno1ZibMNchahE'\
+ -H 'content-length: 252'\
+ -H 'content-type: application/json'\
+ -d '{"title":"White able kid friend catch ten it.","courseId":"7b882c44-9808-4f98-a3e3-e3ce5dee03f3","maxScore":69,"minScore":24,"orderIndex":7,"description":"Able entire risk player. Trouble like sing vote. Case miss name drop.","estimatedTime":"9 weeks"}'

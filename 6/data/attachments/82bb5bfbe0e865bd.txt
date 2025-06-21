@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIxOjQ3OjA2LjA1MzYwOSIsInVzZXJfaWQiOiI0MjA5NmE2Zi1lY2U4LTQyMmItOTBiMS0xY2Y3NjU0YTBmMmIifQ.zZqIWxO1cTvpoaq8ds-kjnCq0kQe00xKz2p09S2p2UY'\
+ -H 'content-length: 374'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Mention receive forward edge.","maxScore":77,"minScore":21,"description":"Lawyer bill put serve same police around positive. Where right process marriage beyond. Similar generation line involve and. Beyond full green theory.","previewFileId":"3d723e9f-01c5-4938-8f45-fb7deb9b8c55","estimatedTime":"5 weeks","createdByUserId":"42096a6f-ece8-422b-90b1-1cf7654a0f2b"}'

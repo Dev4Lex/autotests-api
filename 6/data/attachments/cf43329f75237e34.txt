@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIxOjQ3OjA4LjQ1OTM3NSIsInVzZXJfaWQiOiI4YmIyYTlhMi0wYzQyLTQzNzMtYTYxYy1hZGI2NWEzNDYzZGUifQ.GwdOT4ATL84XgpfnF6BUyV4T319l1zno1ZibMNchahE'\
+ -H 'content-length: 440'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Force key method beautiful ever society room.","maxScore":65,"minScore":14,"description":"Part American small process they medical. Family term deal so produce. Into clear respond wind better dog.\nBegin compare agreement laugh drive. Indeed bar put green. At issue production start sister.","previewFileId":"1673fac3-aad7-476d-a4b6-b5ca27dea928","estimatedTime":"6 weeks","createdByUserId":"8bb2a9a2-0c42-4373-a61c-adb65a3463de"}'

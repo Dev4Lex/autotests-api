@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/courses/3f2cc907-67d6-4548-8227-c7d8bba75e5f\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIxOjQ3OjA0LjgyNzUzMCIsInVzZXJfaWQiOiI0ZTNkZDUwYS0yZWM5LTRhMTMtYjI2ZS1mMWViZDQ0ZjFiNDAifQ.fj9gY7nYfo_Zn8OVNoRSl8HFQU1dx70TemSbVggVxgA'\
+ -H 'content-length: 266'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Position move time debate.","maxScore":69,"minScore":23,"description":"Picture travel fly really audience Democrat floor. Still former surface same meet modern.\nHalf over give drug night. Hold believe high anyone himself guess.","estimatedTime":"1 weeks"}'

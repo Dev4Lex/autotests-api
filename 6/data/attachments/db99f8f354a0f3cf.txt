@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIxOjQ3OjA1LjQwOTUwOCIsInVzZXJfaWQiOiJmN2E1YmViNC01ODZmLTRhYjctODAyYy0zNTk0NmY1MDlkODgifQ.TUKy5iQk7xNb39nahUJc4asjOUGCseILy_kmcTaT9LA'\
+ -H 'content-length: 394'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Model degree name.","maxScore":100,"minScore":13,"description":"Pass wife seat tree. Work maintain represent reality. Prove who impact country executive.\nChallenge consumer game nice. Break stage hair measure industry age. Space hear like win.","previewFileId":"d0ce8cf9-59b0-4895-8b48-702048cb613d","estimatedTime":"8 weeks","createdByUserId":"f7a5beb4-586f-4ab7-802c-35946f509d88"}'

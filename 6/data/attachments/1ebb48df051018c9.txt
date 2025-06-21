@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIxOjQ3OjA3LjgyMDkyOSIsInVzZXJfaWQiOiI3MGViZjM2MS03NDcxLTRhNDItOWI5OC1mYzE3YjI3YTA0YmMifQ.AiJPle8SI492ecn0jaeC8Ti3xWaNXxEK43moIMormjU'\
+ -H 'content-length: 351'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Good child analysis official.","courseId":"4302ee8c-05d2-4788-9b24-fc478d15b94a","maxScore":63,"minScore":2,"orderIndex":66,"description":"Evening paper ten hair difference kitchen. Politics ready project edge. Sing hope peace house cold. Much front care course evening main floor.\nGovernment charge degree have.","estimatedTime":"3 weeks"}'

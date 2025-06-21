@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIxOjQ3OjA0LjgyNzUzMCIsInVzZXJfaWQiOiI0ZTNkZDUwYS0yZWM5LTRhMTMtYjI2ZS1mMWViZDQ0ZjFiNDAifQ.fj9gY7nYfo_Zn8OVNoRSl8HFQU1dx70TemSbVggVxgA'\
+ -H 'content-length: 350'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Station control surface whole before admit red sometimes.","maxScore":51,"minScore":10,"description":"Wide carry character again down man involve. Some will every. Gas I hair great federal admit step.","previewFileId":"2b9e9000-2e34-4df1-83d9-0daa0fb5ad91","estimatedTime":"8 weeks","createdByUserId":"4e3dd50a-2ec9-4a13-b26e-f1ebd44f1b40"}'

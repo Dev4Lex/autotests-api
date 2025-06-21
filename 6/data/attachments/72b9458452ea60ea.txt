@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIxOjQ3OjA3LjIyOTkzOCIsInVzZXJfaWQiOiI1YTY4YzI4MS04YzEyLTRkZDUtYmJmNS0xOGM2MTVjYTNiYTgifQ.Y-Qh6WK6m3HXjO4W_nkT_gruncQea7X6wVwaciRcSoI'\
+ -H 'content-length: 363'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Agreement goal American full within window.","maxScore":86,"minScore":23,"description":"Protect stuff single even close move. Age middle federal factor.\nSubject plan skin do think. Clearly commercial door action.","previewFileId":"cd9b2032-3a65-4b4d-8e7f-21b604cbd5ce","estimatedTime":"3 weeks","createdByUserId":"5a68c281-8c12-4dd5-bbf5-18c615ca3ba8"}'

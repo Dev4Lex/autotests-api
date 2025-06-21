@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIxOjQ3OjA2LjY0MzE2OCIsInVzZXJfaWQiOiJiYzdkNDI5OC02NjcwLTRiODQtOThkOC1mNTkxNzJhZmUwODAifQ.KEE1j6uqbkT2mo0N_1l1de6pYx4CnD9vTg0JgirEzIk'\
+ -H 'content-length: 406'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Defense minute increase seek.","maxScore":89,"minScore":13,"description":"Rather team hour agency not however friend. Market all today main play day.\nWin old trade first either. Traditional yourself watch. Difficult property enter sign popular after fear.","previewFileId":"b504ce29-df9e-40e1-aee0-8a9acd164183","estimatedTime":"9 weeks","createdByUserId":"bc7d4298-6670-4b84-98d8-f59172afe080"}'

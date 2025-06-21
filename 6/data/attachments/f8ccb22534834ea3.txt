@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIxOjQ3OjA3LjgyMDkyOSIsInVzZXJfaWQiOiI3MGViZjM2MS03NDcxLTRhNDItOWI5OC1mYzE3YjI3YTA0YmMifQ.AiJPle8SI492ecn0jaeC8Ti3xWaNXxEK43moIMormjU'\
+ -H 'content-length: 307'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Pull friend out east coach key trial.","maxScore":83,"minScore":29,"description":"Her pretty oil. General same marriage.\nHow art stand. Bar use herself sea.","previewFileId":"a8cabc39-79ce-4538-8a3f-37239534f7f5","estimatedTime":"8 weeks","createdByUserId":"70ebf361-7471-4a42-9b98-fc17b27a04bc"}'
