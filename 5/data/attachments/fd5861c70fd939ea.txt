@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjMzOjQxLjQ3MjcxMCIsInVzZXJfaWQiOiI5NmIwOGU3ZS0yMTVlLTQyNTItOTkxZC0xYTc2NDE4ZTI0OWYifQ.7YbS0yYCWHLuJSSm8TaEulVti69hel5LirUxU_aPNrM'\
+ -H 'content-length: 329'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Forward give fish.","maxScore":85,"minScore":14,"description":"First tough several whole table beautiful. Thank eye parent.\nAcross my science affect. Total west foreign capital.","previewFileId":"3dd04b9c-9e68-4828-b7ff-be23dc1e3f72","estimatedTime":"10 weeks","createdByUserId":"96b08e7e-215e-4252-991d-1a76418e249f"}'

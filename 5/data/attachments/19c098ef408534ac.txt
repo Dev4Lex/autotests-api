@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjMzOjM3LjcwNjk1NSIsInVzZXJfaWQiOiJkYjEzMDNhMC03ZjE2LTQ3YjktOTUyYi0xZDBlNzI4MDVkZTUifQ.EONpHArgHaoPi2o3xbFiRXOMJOXHD7cpLVwEGHHvHIo'\
+ -H 'content-length: 357'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Professor likely nearly.","maxScore":78,"minScore":11,"description":"Himself toward idea tax public professor worry. Unit sit key within different record opportunity.\nThose pick give thought positive laugh.","previewFileId":"a622ceab-dabe-430e-bf53-343a1e89255f","estimatedTime":"9 weeks","createdByUserId":"db1303a0-7f16-47b9-952b-1d0e72805de5"}'

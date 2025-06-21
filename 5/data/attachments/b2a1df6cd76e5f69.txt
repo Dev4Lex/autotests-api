@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjMzOjQwLjAxODk3NyIsInVzZXJfaWQiOiI2YzE3N2FlMS0zZWIzLTRlMmUtOGVlOS1mYzY1NjJlYjk5NDYifQ.5PXRuxIjKaWrU-wxZzNmEhKRQqOpH9m9PDvGV6UtcLI'\
+ -H 'content-length: 304'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Anyone anything speak word.","maxScore":82,"minScore":17,"description":"Break third others glass. Account job ever subject yet. Wear blood audience ready.","previewFileId":"485b5be4-0a2b-4b6b-8686-5d3c5cb9757a","estimatedTime":"2 weeks","createdByUserId":"6c177ae1-3eb3-4e2e-8ee9-fc6562eb9946"}'

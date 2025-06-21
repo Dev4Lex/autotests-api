@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjMzOjQwLjI5MTM2MSIsInVzZXJfaWQiOiI3YzE2Njg2Yi01M2ZhLTQ0N2MtOTk5OC0yMjFhZTUzMDg1YjEifQ.bnODgv4jTQrAfp4sdreQM0XbPz0CucqCiOuGSQ5bIVg'\
+ -H 'content-length: 415'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Build remember take quite successful.","maxScore":57,"minScore":9,"description":"Pm agent industry senior ahead. Cover affect item financial air after. Power alone about state study bag.\nNature relate tree drug international difficult. Small maintain probably age.","previewFileId":"19a658c8-a160-4221-bc7e-05920919f0a9","estimatedTime":"7 weeks","createdByUserId":"7c16686b-53fa-447c-9998-221ae53085b1"}'

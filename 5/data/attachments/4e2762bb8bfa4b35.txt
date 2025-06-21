@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjMzOjQyLjM4NzAwOSIsInVzZXJfaWQiOiIxNzAxMDFkZS0xOWYzLTQyMjMtOGE5MS02YTE3N2VkZWU5MWUifQ.9-zrqseGp2DLKngt0ZbbWQ-1E9swdhKnwiJXHrSs1bA'\
+ -H 'content-length: 361'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Trade happy property simple morning Democrat risk.","maxScore":62,"minScore":30,"description":"Beat little continue effect. Assume know network bed represent. Prepare cost whom probably wait public eight always.","previewFileId":"e75c47a5-5443-4c6e-a53b-7de7ff7c9131","estimatedTime":"4 weeks","createdByUserId":"170101de-19f3-4223-8a91-6a177edee91e"}'

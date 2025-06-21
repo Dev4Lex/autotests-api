@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/courses/aff5c5b4-8739-4bff-81bc-d526579f20b6\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjMzOjM3LjcwNjk1NSIsInVzZXJfaWQiOiJkYjEzMDNhMC03ZjE2LTQ3YjktOTUyYi0xZDBlNzI4MDVkZTUifQ.EONpHArgHaoPi2o3xbFiRXOMJOXHD7cpLVwEGHHvHIo'\
+ -H 'content-length: 255'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Stop born send star begin third project.","maxScore":69,"minScore":14,"description":"Where run wall hair many day office week. Audience we close middle everybody. Avoid network employee particular that responsibility.","estimatedTime":"7 weeks"}'

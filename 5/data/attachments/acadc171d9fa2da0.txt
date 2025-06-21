@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjMzOjM5LjEyMTc0MyIsInVzZXJfaWQiOiJjODE4ZGEyYi1kZjlmLTRlMzUtYjY4MS0yMGJkY2EwOGVkZjMifQ.VysSGun4uA2R0e9Yqe2yzb0Q3oO58D4o_NRjnmW5jag'\
+ -H 'content-length: 335'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Up factor short last nearly.","maxScore":86,"minScore":9,"description":"Blue cold interesting feel property nice letter. Situation grow analysis note. As direction gun attorney surface.","previewFileId":"3b80c1ec-6100-406a-91cb-b107be5ec096","estimatedTime":"7 weeks","createdByUserId":"c818da2b-df9f-4e35-b681-20bdca08edf3"}'

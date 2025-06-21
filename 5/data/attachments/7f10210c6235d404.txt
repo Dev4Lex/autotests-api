@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIxVDIwOjMzOjM4Ljg0OTA4MCIsInVzZXJfaWQiOiI3M2ZiODBlYS03MTJhLTQwMGUtYWQ1OS00NjVkNTIzM2Y3OTUifQ.BXGhxhOly6yr7eOCkjGGJpcSDg2nFP1KLldU3DSRC98'\
+ -H 'content-length: 318'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Yes available everybody.","maxScore":95,"minScore":15,"description":"Democrat point by certainly may or. Economy our war century address. Run might kind rather country.","previewFileId":"da29a628-37b9-4de9-b625-300c082c28d6","estimatedTime":"4 weeks","createdByUserId":"73fb80ea-712a-400e-ad59-465d5233f795"}'
