@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjI5OjU0Ljg0OTIzNyIsInVzZXJfaWQiOiIyMDc2Yjc3ZS1iZTAzLTRkOTQtYTU0NS1hM2UwNDNmMjkwZTcifQ.suDcswdYU8PoV1BkkbBAL_tF2ltY-G_MhzVh9G30h0s'\
+ -H 'content-length: 407'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Result him heavy woman.","maxScore":98,"minScore":30,"description":"Game fast meeting office response defense. Win audience human ground whether your. Positive wish game house manage throw.\nSkill seek find couple or next baby. Tell sort fine hour southern.","previewFileId":"fe88f603-0619-4a9e-aad3-601c17e7bd8e","estimatedTime":"3 weeks","createdByUserId":"2076b77e-be03-4d94-a545-a3e043f290e7"}'

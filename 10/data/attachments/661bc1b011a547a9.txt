@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjI5OjU2LjA4MTE0MiIsInVzZXJfaWQiOiJlODIzMDUzZC0yZmRkLTRjMmMtYjU3MC0zOWFmZjFlMjBkNzEifQ.t25E8RGRMo4423xqwIZRNcqgVaqz5sebiOfClpFhSt8'\
+ -H 'content-length: 380'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Push second my boy smile product hospital.","maxScore":63,"minScore":15,"description":"Save probably five prevent. Operation consider rise allow follow.\nLetter pull three foreign yourself dark focus. Eye reflect benefit interest.","previewFileId":"03a116c3-7f8b-4456-80c7-117ac1139d74","estimatedTime":"2 weeks","createdByUserId":"e823053d-2fdd-4c2c-b570-39aff1e20d71"}'

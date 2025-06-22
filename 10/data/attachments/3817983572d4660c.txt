@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjI5OjU1LjQ0NjU4OCIsInVzZXJfaWQiOiJmZThjZTVmMC03NmFkLTQyOTItYTllNC0yMzBmMGQyYjdiYmUifQ.RWeUVOv7nNznIOri8PWCt08SR2byX_MOOquBLTn1BjM'\
+ -H 'content-length: 403'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Protect school consumer door.","maxScore":99,"minScore":1,"description":"Down attention television moment magazine after policy. Trade be cold nation perhaps usually father. Actually church trip just likely minute. Pattern expect economic energy ok new.","previewFileId":"be8300c9-71e5-4790-9826-0f9c9b421f0b","estimatedTime":"5 weeks","createdByUserId":"fe8ce5f0-76ad-4292-a9e4-230f0d2b7bbe"}'

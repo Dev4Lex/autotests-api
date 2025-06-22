@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/courses/236d3a2e-56dd-4fb3-88dc-89d8076ac0fe\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjI5OjU0Ljg0OTIzNyIsInVzZXJfaWQiOiIyMDc2Yjc3ZS1iZTAzLTRkOTQtYTU0NS1hM2UwNDNmMjkwZTcifQ.suDcswdYU8PoV1BkkbBAL_tF2ltY-G_MhzVh9G30h0s'\
+ -H 'content-length: 299'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Tax maintain knowledge fill particularly.","maxScore":75,"minScore":28,"description":"Quickly enough born man TV heavy. Guess to inside space. Remain style speak stuff control operation.\nTable bag before long plan large. Wrong activity task improve guess easy.","estimatedTime":"2 weeks"}'

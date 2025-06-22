@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjI5OjU5LjA1NzI5NyIsInVzZXJfaWQiOiIyMzA1NjI3NS1jOTc2LTQwYTMtOGRiYy1iNTgyNGNkYTdkNGMifQ.Fo6x-IdDgnJIDSiJRwB7wUglqkBQDBuq0Ph8pTz2_HA'\
+ -H 'content-length: 281'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Picture whom drug least.","maxScore":58,"minScore":23,"description":"Contain focus bag. Order plan may result finally imagine deal.","previewFileId":"4f926a2c-d6ff-4aaa-affb-8abdff6505ab","estimatedTime":"6 weeks","createdByUserId":"23056275-c976-40a3-8dbc-b5824cda7d4c"}'

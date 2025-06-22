@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjI5OjU2LjY2Mzg5MyIsInVzZXJfaWQiOiI0MDJlOThmYy0zMGE0LTQ0OWEtODYzZi0yZjVjMzczOTY0MTcifQ.B3iScqWBBHziUG0Q4ZHwP6O4JsM1OM_zXuinBM-vu_Y'\
+ -H 'content-length: 339'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Add own resource role.","courseId":"ca5a87b8-2896-4678-8a53-bdf2b9571f17","maxScore":71,"minScore":14,"orderIndex":90,"description":"Standard although gun newspaper huge discover shoulder. About father control already.\nFall at line poor perform instead book. Summer ever own drug. Stage unit better.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjI5OjU3LjgzNTEwNyIsInVzZXJfaWQiOiI0ZmQ3ODg1MC0yN2U5LTQ2ZmQtOThlMC1jYjA4ZjM1MDIzNzMifQ.Z954HQi1Gz8NEzKqER5OrL9EmTumWGWSNRykiYXJDMk'\
+ -H 'content-length: 351'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Law enter even her film worker.","maxScore":97,"minScore":29,"description":"Attack full mouth that about parent.\nWorld whatever professor rest technology. Save fund if. Wait finally scientist a fish.","previewFileId":"31c39e82-9fc7-4d7a-90a2-d3f83b21a6e9","estimatedTime":"10 weeks","createdByUserId":"4fd78850-27e9-46fd-98e0-cb08f3502373"}'

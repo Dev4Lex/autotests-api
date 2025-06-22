@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjI5OjU3LjI0NjYxMiIsInVzZXJfaWQiOiI5MDc1ZjNmZi04ZmNlLTQ1NDktOTQ5My1jN2MxMWIxYTc0MTYifQ.UWKeZghWDjyu-rNVypwXmPWcMXgfYQ4rvz9ZR8TixZk'\
+ -H 'content-length: 416'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Among process money station send field believe.","maxScore":61,"minScore":18,"description":"Official away suggest middle hear lay. After ok speak market poor.\nTest prepare follow by tax. Dark couple maintain instead early law. Director radio by way pretty must act.","previewFileId":"2059fe71-f213-44ff-a652-b691f87989fa","estimatedTime":"1 weeks","createdByUserId":"9075f3ff-8fce-4549-9493-c7c11b1a7416"}'

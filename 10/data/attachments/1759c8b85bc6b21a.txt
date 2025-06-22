@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjI5OjU2LjY2Mzg5MyIsInVzZXJfaWQiOiI0MDJlOThmYy0zMGE0LTQ0OWEtODYzZi0yZjVjMzczOTY0MTcifQ.B3iScqWBBHziUG0Q4ZHwP6O4JsM1OM_zXuinBM-vu_Y'\
+ -H 'content-length: 385'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Rich purpose time scene arm.","maxScore":63,"minScore":20,"description":"Civil mention expect rule top assume inside.\nRisk southern situation window try.\nGrow prove seven program increase. Season dream husband hotel gun family woman.","previewFileId":"bb773e75-4401-40f6-9ae6-b256d24e4414","estimatedTime":"3 weeks","createdByUserId":"402e98fc-30a4-449a-863f-2f5c37396417"}'

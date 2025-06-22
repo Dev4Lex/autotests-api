@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/exercises/cfddbc4a-d5a2-4946-bd74-308d5831bd9c\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjI5OjU3LjI0NjYxMiIsInVzZXJfaWQiOiI5MDc1ZjNmZi04ZmNlLTQ1NDktOTQ5My1jN2MxMWIxYTc0MTYifQ.UWKeZghWDjyu-rNVypwXmPWcMXgfYQ4rvz9ZR8TixZk'\
+ -H 'content-length: 257'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Successful other thousand foot sort.","maxScore":86,"minScore":12,"orderIndex":69,"description":"Image off record let between. Anything huge value some case early scene. Off moment write production close contain little.","estimatedTime":"8 weeks"}'
