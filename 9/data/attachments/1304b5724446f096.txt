@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjIyOjI2Ljk2MjQyNSIsInVzZXJfaWQiOiIzNTRmOTZlMC0xMzVlLTRhOGMtOWY3NC1lZDk4NWRmYWU4ODYifQ.mKPnZcxo1DySoCIQL1BPHfHbpbqFmLBH8Ma9DGqRAG4'\
+ -H 'content-length: 398'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Within trial leg look support.","maxScore":63,"minScore":8,"description":"Through build moment break Democrat. Later system student build energy. Whether free single analysis kind drug.\nAny government Congress employee figure. Face body allow and.","previewFileId":"918dc07a-7c31-43b6-923b-8808443bbda4","estimatedTime":"5 weeks","createdByUserId":"354f96e0-135e-4a8c-9f74-ed985dfae886"}'

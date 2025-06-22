@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjIyOjI3LjIzNDIwNSIsInVzZXJfaWQiOiJjNTU0NWNkMS0zMzA0LTQ5MWMtYTAxMy1mYWZkODdlMjY4NzAifQ.W8lCI4oW--RkbRkdSaimMxLDdTpnFu6rtaKPDV9v0uA'\
+ -H 'content-length: 429'\
+ -H 'content-type: application/json'\
+ -d '{"title":"According baby particularly officer.","maxScore":83,"minScore":2,"description":"Minute quickly middle fast. Life company which air shoulder others.\nMyself civil keep his respond.\nSea item list candidate fine tough significant. Project situation perform artist watch people new.","previewFileId":"ccb899d1-aedd-4404-a8f6-87eea12ed715","estimatedTime":"6 weeks","createdByUserId":"c5545cd1-3304-491c-a013-fafd87e26870"}'

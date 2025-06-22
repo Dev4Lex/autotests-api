@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjIyOjI1Ljc5MDk5NiIsInVzZXJfaWQiOiIyZTEwOWY3MS1lMGEzLTQ3NzEtOGFmNi00YzNjY2Q5MjhjMjgifQ.AvV-Q0k8cdzFX5HgeMkAWs5FPXzB63lh7gs7tV52v8A'\
+ -H 'content-length: 337'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Away let discuss voice office.","maxScore":82,"minScore":17,"description":"Word southern trip recognize stay condition. Analysis indicate popular whole there send leave. Act mouth dinner.","previewFileId":"c4b133aa-10ff-413e-af3e-85ecd1ca0362","estimatedTime":"2 weeks","createdByUserId":"2e109f71-e0a3-4771-8af6-4c3ccd928c28"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjIyOjI2LjA2Mzg3MCIsInVzZXJfaWQiOiI3ZWI5MjZlOS0zNTU3LTQwOWMtODkwZi1mOGE4YTU2YTlhMWEifQ.X8PlN6B43pD-U8Z_TpQyd0CZT8bYs4RHMXlNU4akF6U'\
+ -H 'content-length: 335'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Energy method raise current at between method.","maxScore":93,"minScore":21,"description":"Visit floor reflect modern mention sure before. Sing style stay knowledge share television me.","previewFileId":"d68c4434-7d1c-4a6a-ae15-62bfdd8eb0c2","estimatedTime":"8 weeks","createdByUserId":"7eb926e9-3557-409c-890f-f8a8a56a9a1a"}'

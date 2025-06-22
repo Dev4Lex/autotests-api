@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/courses/b35e2fc6-e948-43ed-a6ed-a8713e791d37\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjIyOjI0LjYyMDQwNiIsInVzZXJfaWQiOiI0NTc3YmY3Ny02NDkyLTQwZTQtODNlMy1lYmMxNTA0MzEwNmMifQ.UXLjAtA_UiBKEYDr6A2uWycJ1-AMraMQM1VpNU6tFdA'\
+ -H 'content-length: 225'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Voice eight television include response than American.","maxScore":83,"minScore":11,"description":"Answer sure until because. Challenge provide letter blood. End family fast woman person.","estimatedTime":"5 weeks"}'

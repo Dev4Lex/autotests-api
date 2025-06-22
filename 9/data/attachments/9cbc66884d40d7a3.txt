@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/exercises/4757355e-e795-42b7-9182-1d760f315b52\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjIyOjI3LjIzNDIwNSIsInVzZXJfaWQiOiJjNTU0NWNkMS0zMzA0LTQ5MWMtYTAxMy1mYWZkODdlMjY4NzAifQ.W8lCI4oW--RkbRkdSaimMxLDdTpnFu6rtaKPDV9v0uA'\
+ -H 'content-length: 229'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Partner development choice stuff region song free.","maxScore":79,"minScore":17,"orderIndex":30,"description":"Do support part. Wait such language some far. Hotel gas product fire ahead into.","estimatedTime":"2 weeks"}'

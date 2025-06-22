@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjIyOjI4LjQyMjE0MSIsInVzZXJfaWQiOiIwMWIzODkyMi0yNWE2LTRlZGEtOGRmYS05NGEzODI4MjUwMTcifQ.ivyhzskd4hcdD9cYDtcREw7rzj67c-22mH9YhEqbAbA'\
+ -H 'content-length: 356'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Opportunity money state may.","maxScore":84,"minScore":8,"description":"Hotel everything describe day wrong.\nUntil speech up himself. Woman well pretty south of. Police figure culture line smile most rule.","previewFileId":"e615ea6e-96fc-4484-abb2-05a25c807ed2","estimatedTime":"3 weeks","createdByUserId":"01b38922-25a6-4eda-8dfa-94a382825017"}'

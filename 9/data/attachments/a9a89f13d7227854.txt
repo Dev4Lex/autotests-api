@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjIyOjI5LjM0NDg5OSIsInVzZXJfaWQiOiIyOTUwNWJiZi03NzhjLTRkYWEtOTA4NC0zZjUyNWRhNjQ1NjIifQ.W6wNKq_lgdFnnsJMMxJhU04Ty2xWyF9VMi1YYI4wjd4'\
+ -H 'content-length: 330'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Pm down decision alone heart perhaps.","maxScore":63,"minScore":28,"description":"Executive even list fast. Ever matter inside most need any. Miss tough recent recently range hand.","previewFileId":"19c4f1b7-d976-4d9c-bbe7-3054d6d40852","estimatedTime":"9 weeks","createdByUserId":"29505bbf-778c-4daa-9084-3f525da64562"}'

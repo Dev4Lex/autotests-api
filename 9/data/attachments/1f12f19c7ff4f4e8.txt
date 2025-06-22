@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjIyOjI2Ljk2MjQyNSIsInVzZXJfaWQiOiIzNTRmOTZlMC0xMzVlLTRhOGMtOWY3NC1lZDk4NWRmYWU4ODYifQ.mKPnZcxo1DySoCIQL1BPHfHbpbqFmLBH8Ma9DGqRAG4'\
+ -H 'content-length: 310'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Happen everybody public quite may federal.","courseId":"03eeff57-c870-4629-8a0c-df241c056af1","maxScore":78,"minScore":5,"orderIndex":13,"description":"Land water role. Design cold your yet. His cup identify recently might worker final. Buy who serious future third item.","estimatedTime":"10 weeks"}'
