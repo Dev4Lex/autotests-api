@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDExOjI0OjExLjMxNjAwMyIsInVzZXJfaWQiOiIxMjhlNzEzYS0zNjc1LTRkMjMtODg1My1hOWY2OWZkNDVlYzkifQ.EctC_NAGhIVW0oTh9qaXy8eg_XNWiC0iFODYViKvDoQ'\
+ -H 'content-length: 387'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Information keep issue reflect particular lead cold.","maxScore":61,"minScore":12,"description":"Less large response room see believe shoulder. Various be soon should find executive space.\nSpend not event task guess. Able large deal up.","previewFileId":"d3095a8b-aa0a-4418-9e6f-02a5c1e067a9","estimatedTime":"4 weeks","createdByUserId":"128e713a-3675-4d23-8853-a9f69fd45ec9"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDExOjI0OjEwLjY2MTc0NCIsInVzZXJfaWQiOiIyYzI5NmU2My03MmIzLTRjZjUtOTI2Yy0xNmM0NzgwYmMxNDcifQ.R1oE8STtyv9SOXCZgttwLl0kanLxyL3Zl3fnceyjABQ'\
+ -H 'content-length: 417'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Who Republican someone best us door.","maxScore":59,"minScore":3,"description":"Beat ball scientist back charge moment work. Lawyer gas someone new theory method threat.\nGlass store carry morning. Agree year structure environmental action. Wide take project my pull.","previewFileId":"e7bc1083-91c2-4c91-9723-a63b526c8de6","estimatedTime":"1 weeks","createdByUserId":"2c296e63-72b3-4cf5-926c-16c4780bc147"}'

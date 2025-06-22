@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDExOjI0OjExLjg5OTE3MyIsInVzZXJfaWQiOiI2ZmVmMTNmNy02MDJiLTQ5M2ItYmVhZC01Mzc0ZTZhOGFkMmUifQ.XpEW_M63jpDJZidotfkYQlkXFK5VqzmuyWthpvvbND0'\
+ -H 'content-length: 431'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Then local picture tree issue look.","maxScore":75,"minScore":16,"description":"Past support like east religious challenge. Away more play bad seat.\nAmerican certain down perhaps before explain pass.\nFull lose whole take free. Key because situation eat. Face with use under much.","previewFileId":"31f63f8b-b48d-4a4f-97fa-2776e7760877","estimatedTime":"3 weeks","createdByUserId":"6fef13f7-602b-493b-bead-5374e6a8ad2e"}'

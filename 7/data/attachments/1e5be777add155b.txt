@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDExOjI0OjEwLjY2MTc0NCIsInVzZXJfaWQiOiIyYzI5NmU2My03MmIzLTRjZjUtOTI2Yy0xNmM0NzgwYmMxNDcifQ.R1oE8STtyv9SOXCZgttwLl0kanLxyL3Zl3fnceyjABQ'\
+ -H 'content-length: 319'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Service control American pay.","courseId":"c50cde35-fbb8-4743-9375-1e00a981e636","maxScore":81,"minScore":25,"orderIndex":28,"description":"Buy live feel. Phone hundred become move during. Focus suffer ask turn discover account.\nAbove short act eat hear. Your onto majority other.","estimatedTime":"5 weeks"}'

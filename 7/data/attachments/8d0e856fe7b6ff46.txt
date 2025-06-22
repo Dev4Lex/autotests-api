@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDExOjI0OjEyLjU0Mzc3NiIsInVzZXJfaWQiOiI1NmJjZGQ3Zi02NTRjLTRlODEtYTIzMC03MmQ1MmVjMWFmMzAifQ.RDmsVvJ6TPIwHd7rgzsBfMrOXUUoLtK6R9Qir7CYIvA'\
+ -H 'content-length: 318'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Certainly these walk.","maxScore":91,"minScore":15,"description":"Ball size because throw. Best everyone across peace remain sometimes.\nConference town TV inside sing.","previewFileId":"fbcc3193-e21f-44cb-befa-1c5c368fe10b","estimatedTime":"2 weeks","createdByUserId":"56bcdd7f-654c-4e81-a230-72d52ec1af30"}'

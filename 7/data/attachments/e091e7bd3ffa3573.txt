@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDExOjI0OjA4Ljg0NjgwNiIsInVzZXJfaWQiOiI5ODVmZDQwZC05NDk4LTQ1MTEtYTcwYS1kZTljMWYyMWU5MDkifQ.za-xXzZpUxKcU9c7KRilNDw33eLJsmtqdOAWRJADsns'\
+ -H 'content-length: 381'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Rise nearly president college.","maxScore":86,"minScore":13,"description":"Positive local follow nothing money management clearly. Face member east player prepare rate wife. Movement certainly citizen mind practice between address.","previewFileId":"013135d2-6d75-41bf-b38e-65b441cc86eb","estimatedTime":"8 weeks","createdByUserId":"985fd40d-9498-4511-a70a-de9c1f21e909"}'
