@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjE3OjMxLjQ0NDkzOSIsInVzZXJfaWQiOiIwNzUzMGZjMS01ZTVmLTQ1OTctYTRmMi0xMzY5YjI3YjFiZTQifQ.d0vI5Mc1RA9WgP551pdm_fEAT69JyZGb0e0A6lzIxHs'\
+ -H 'content-length: 325'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Probably report create plan police case miss.","courseId":"dcb93be7-c549-440b-9f6a-72667ea70562","maxScore":86,"minScore":26,"orderIndex":58,"description":"Left radio into various debate. Teacher win answer even feeling radio white memory. Particularly difficult them agent surface feel.","estimatedTime":"1 weeks"}'

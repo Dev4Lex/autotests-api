@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjE3OjMxLjQ0NDkzOSIsInVzZXJfaWQiOiIwNzUzMGZjMS01ZTVmLTQ1OTctYTRmMi0xMzY5YjI3YjFiZTQifQ.d0vI5Mc1RA9WgP551pdm_fEAT69JyZGb0e0A6lzIxHs'\
+ -H 'content-length: 371'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Ahead interesting power condition inside.","maxScore":64,"minScore":8,"description":"Grow learn next as bill owner. None travel like happen happy sing.\nSense wife throughout true. Last fall toward yes beat remember well.","previewFileId":"cece9817-789b-41c1-8301-8d071eaf0cfc","estimatedTime":"9 weeks","createdByUserId":"07530fc1-5e5f-4597-a4f2-1369b27b1be4"}'

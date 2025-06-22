@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjE3OjMzLjIyOTYwNSIsInVzZXJfaWQiOiJjN2IzZTlmYS03ZTljLTQxM2MtYWE2Mi0xZmRiYzRjMGRmZWQifQ.KSJ0ANfTcB5bxD393QhPvbtUzrYR9vShoijIqpmw4Zk'\
+ -H 'content-length: 353'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Choice her all market ball usually.","courseId":"593522a9-66d7-4e9c-a2ef-1a14bb9820b3","maxScore":92,"minScore":23,"orderIndex":38,"description":"Particularly house citizen adult identify available analysis approach. Decision what note scientist because assume. Leave Congress develop dog Democrat idea from common.","estimatedTime":"5 weeks"}'

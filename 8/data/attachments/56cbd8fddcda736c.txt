@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjE3OjMyLjU5NTUzMSIsInVzZXJfaWQiOiI2NThlODQ4OS00MTMzLTRmZjktYjU3Ni02MzBjMjIxYTJiMWIifQ.rqrOpqTFj8jsngokExd4B5UABoYS3z8-gnUSTzail6g'\
+ -H 'content-length: 375'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Race new week economy crime red test.","maxScore":82,"minScore":21,"description":"Color Republican admit conference perform manager machine. Present total natural successful. Defense group major my paper mind professor price.","previewFileId":"1abf62be-91ff-4f1f-8920-78c70bdaa066","estimatedTime":"1 weeks","createdByUserId":"658e8489-4133-4ff9-b576-630c221a2b1b"}'

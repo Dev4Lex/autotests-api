@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjE3OjI5LjY1MDI4NCIsInVzZXJfaWQiOiIyMmY2N2E5MC02ODJlLTQ4OTAtOThiYS0yMGY0YmM5ZDNlZDQifQ.zOLbtEtAAxykZwkX11M0PvpA_eCvpeUOC8bF9z9s-jQ'\
+ -H 'content-length: 416'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Chair here whether rate.","maxScore":84,"minScore":16,"description":"Opportunity road hit message station. Individual send population. Wait identify herself believe card red animal.\nSuffer action experience imagine worry. Eight rather son low government president.","previewFileId":"01cf5313-eec2-4491-a964-74582cf2ca7d","estimatedTime":"10 weeks","createdByUserId":"22f67a90-682e-4890-98ba-20f4bc9d3ed4"}'

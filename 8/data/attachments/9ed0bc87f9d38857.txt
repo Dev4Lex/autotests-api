@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjE3OjMzLjIyOTYwNSIsInVzZXJfaWQiOiJjN2IzZTlmYS03ZTljLTQxM2MtYWE2Mi0xZmRiYzRjMGRmZWQifQ.KSJ0ANfTcB5bxD393QhPvbtUzrYR9vShoijIqpmw4Zk'\
+ -H 'content-length: 433'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Shake same history mission life whose.","maxScore":69,"minScore":11,"description":"Clear let morning color rock capital especially. Find sister reflect paper cut after. With medical man condition remain course.\nBeautiful today visit past course create deep. Kid boy page he prepare.","previewFileId":"9ea8a28f-f13b-4729-bf32-e909777a01f5","estimatedTime":"2 weeks","createdByUserId":"c7b3e9fa-7e9c-413c-aa62-1fdbc4c0dfed"}'

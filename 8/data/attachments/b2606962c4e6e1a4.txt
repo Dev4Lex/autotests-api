@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjE3OjMwLjg3MTI1NSIsInVzZXJfaWQiOiI3MDc2ZjkwYi00YzNiLTRjMjgtYjg1Mi0wNDQ5NjNmZGJiNzIifQ.t6unPO3xb2ybBpzZPslAL7baOKpKQ4fyyX2hObC6JRw'\
+ -H 'content-length: 376'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Himself member pull thank throughout.","maxScore":50,"minScore":8,"description":"Size conference base dinner popular believe attorney guess. Create purpose property through ability.\nDifficult rise south with likely own there.","previewFileId":"79768c66-a478-4537-b55c-0123fd0ba8f6","estimatedTime":"9 weeks","createdByUserId":"7076f90b-4c3b-4c28-b852-044963fdbb72"}'

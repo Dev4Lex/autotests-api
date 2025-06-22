@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjE3OjMzLjgwMTYzMyIsInVzZXJfaWQiOiJjNTcwZDFiMi1iMDliLTRmOWYtYWVlYS0wOTQwZmZiODEyN2QifQ.UaaZ4lq10H3XYaJAbiM_dfeCV9GrDX5BPbl77zI7_qU'\
+ -H 'content-length: 383'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Any history culture seven nation.","maxScore":82,"minScore":16,"description":"Three upon be camera bring. Maintain together bank difficult financial sign west instead.\nEdge allow majority again she car. Help sea ask suddenly action.","previewFileId":"c547cc4d-5d2d-4465-8701-5eb25d4112e6","estimatedTime":"3 weeks","createdByUserId":"c570d1b2-b09b-4f9f-aeea-0940ffb8127d"}'

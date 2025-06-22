@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjE3OjMyLjAyMTM2NSIsInVzZXJfaWQiOiJhNjZlNGIxZC1hNjIwLTRhYmMtYTM1NC04YzQ2NjIxNzBhMmQifQ.01kl75QfkzAwBCXl8Gn2qU-HsAadn3coscONtskQwuA'\
+ -H 'content-length: 373'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Similar sort network southern.","maxScore":67,"minScore":5,"description":"Capital huge source career level them. Describe notice daughter do attorney health science nice.\nWhere present even. Particularly model kid another.","previewFileId":"066b413f-1e29-4a9b-9562-361543239798","estimatedTime":"9 weeks","createdByUserId":"a66e4b1d-a620-4abc-a354-8c4662170a2d"}'

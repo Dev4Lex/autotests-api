@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjE3OjMwLjIzMTI5OCIsInVzZXJfaWQiOiI5NzUzNGViZS05YTU0LTRmZDYtODE4NS1kMGViZWI0ZjhmZjcifQ._d96lDYwdfkGmNcfx7_s0Qmlv4ixevx5UifAhrpmJis'\
+ -H 'content-length: 423'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Later same fire see within our kind.","maxScore":83,"minScore":11,"description":"Near art enough. International something remember much exactly walk. Day remain community kid sport four affect.\nClear thank hand though make single fast sell. Follow left name picture sound.","previewFileId":"0b11c12f-5ce1-4adf-a5f4-768b8a3a6919","estimatedTime":"2 weeks","createdByUserId":"97534ebe-9a54-4fd6-8185-d0ebeb4f8ff7"}'
