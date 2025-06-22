@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjQ4OjAzLjM5NzQ1MSIsInVzZXJfaWQiOiIxODQ4NzMxMC1iMWU3LTQxMWMtOThkOC1jNDU4ZDJiNTY0NjMifQ.2G0qS9JOGtUIiX03fAXAIxQh4SDL6rCiaRI70XHSw9Y'\
+ -H 'content-length: 425'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Almost event against just weight.","maxScore":95,"minScore":2,"description":"Center life risk recent. Open Mr side Mrs product wait best notice. Sell necessary difference lose fact school commercial film.\nFine address Mrs fast cell tough. Can enter yeah professional degree.","previewFileId":"5d87f957-94d8-4177-96fb-08232556ecec","estimatedTime":"8 weeks","createdByUserId":"18487310-b1e7-411c-98d8-c458d2b56463"}'

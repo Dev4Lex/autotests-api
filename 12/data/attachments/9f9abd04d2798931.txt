@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjQ4OjA2LjQxMzQ3NSIsInVzZXJfaWQiOiI1MzRhYjAwMS02YmJmLTQyNTQtODc4OC1mN2YxNmMwNDE4ZTQifQ.OOGmTbBeDmLTZmqmpYhRZnvtkydBW8VA5deENTXjLzQ'\
+ -H 'content-length: 384'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Attorney then pay want meeting.","maxScore":74,"minScore":2,"description":"Business never beautiful same make represent mission. Country plan red want hundred manage idea. Read administration standard writer. Leave family pretty pass.","previewFileId":"3941a279-61f3-42d9-82e9-7077160d22e1","estimatedTime":"5 weeks","createdByUserId":"534ab001-6bbf-4254-8788-f7f16c0418e4"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/courses/73a51aa9-4bac-4e92-be4d-3fd6e7419752\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjQ4OjAyLjE1ODk2MiIsInVzZXJfaWQiOiI5Yzk1ZmFiYy1jOTVjLTQ5MjQtYTAyMy04NjRmNDYxNGMxZWEifQ.d4kbfcstLOxGn04ZJ0MhKRXGcGkLmWSg9fjbWxHWd5M'\
+ -H 'content-length: 297'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Hour girl this both project son teach.","maxScore":54,"minScore":3,"description":"Beyond organization cold day. Effect maybe hospital.\nAttorney never explain church beautiful couple resource. Role main fish more. Week budget return couple happen result than.","estimatedTime":"9 weeks"}'

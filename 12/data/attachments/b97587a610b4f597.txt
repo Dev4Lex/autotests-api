@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjQ4OjA0LjYwODU2NSIsInVzZXJfaWQiOiI0MDY0ZWJhNS1iZDExLTQzMTAtYWUxYS05ZDkyNzM1ZDFmMWUifQ.DSSY1wSKLaHTw3oUXavfK7_7FLOkz-jcQ3uidnDyMnc'\
+ -H 'content-length: 391'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Yourself beautiful two strategy network party.","maxScore":53,"minScore":26,"description":"Small investment pretty feeling as blue theory wait. Write way building between imagine threat research. Since wait bring letter organization forward.","previewFileId":"a8735915-b18c-40c8-afd4-251fd638a0b5","estimatedTime":"9 weeks","createdByUserId":"4064eba5-bd11-4310-ae1a-9d92735d1f1e"}'

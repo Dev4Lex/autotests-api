@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/exercises/b41b5473-579f-49b8-80f0-5cf2285b1580
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/exercises/b41b5473-579f-49b8-80f0-5cf2285b1580
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:82 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Thousand officer leave lead.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 100
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 1
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 24
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Exist good join she. Those relate dog situation gas. People week vote eight send middle degree center.
+Special give campaign area federal. Main soldier offer. Instead plant start visit word poor.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/courses/73a51aa9-4bac-4e92-be4d-3fd6e7419752
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/courses/73a51aa9-4bac-4e92-be4d-3fd6e7419752
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:23 Check update course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Hour girl this both project son teach.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 54
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 3
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Beyond organization cold day. Effect maybe hospital.
+Attorney never explain church beautiful couple resource. Role main fish more. Week budget return couple happen result than.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

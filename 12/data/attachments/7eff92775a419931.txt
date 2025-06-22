@@ -1,0 +1,32 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/courses?userId=f4d25ecb-8a76-45a1-a554-90c1cea07ef1
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/courses?userId=f4d25ecb-8a76-45a1-a554-90c1cea07ef1
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:64 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:75 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:40 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 92a84daf-21e5-4461-b0c0-3ca2f97e1ffa
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to International list firm she society scientist piece city.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 59
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Television rather great however rest wear. Whose say result later most. Station special be never final worry. Be process building down factor join.
+Organization trade meet walk nation.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 3 weeks
+INFO     FILES_ASSERTIONS:files.py:41 Check file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 7dc3a131-fed3-4785-bd0b-cafec4396a7a
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals to http://localhost:8000/static/tests/a58ca498-5e4d-4f82-ab7f-43830e9e6908.png
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals to a58ca498-5e4d-4f82-ab7f-43830e9e6908.png
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:37 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to f4d25ecb-8a76-45a1-a554-90c1cea07ef1
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals to sean42@example.org
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals to Smith
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals to Amanda
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals to Erica
