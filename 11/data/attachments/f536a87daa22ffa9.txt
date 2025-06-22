@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjMwOjA0LjM0NTM3MSIsInVzZXJfaWQiOiI5MDM4MGQyNi03M2NkLTQ1ZDEtODRhOC01YjRhZmZjNTFlZjIifQ.LH7pAOAlOMIdx0EI0YJP1lGueQ1dgYB_d-w9E8bCCuo'\
+ -H 'content-length: 361'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Clear conference suddenly suddenly.","maxScore":93,"minScore":16,"description":"Hard cause often return once. Goal oil environment all board economic.\nHouse begin present fact almost care. Action thousand foot.","previewFileId":"6c984ecc-8e93-4d2f-8908-719c532857e5","estimatedTime":"1 weeks","createdByUserId":"90380d26-73cd-45d1-84a8-5b4affc51ef2"}'

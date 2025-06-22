@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises?courseId=ea4b4630-d3fe-4ad2-bfda-454f859724ca
+INFO     HTTP_LOGGER:event_hooks.py:36 Got 200 OK from http://localhost:8000/api/v1/exercises?courseId=ea4b4630-d3fe-4ad2-bfda-454f859724ca
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:116 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:75 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:21 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "exercise_id" equals to 61a4c97f-106d-4838-b758-8e950a81a442
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Will coach support remain of sport safe.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to ea4b4630-d3fe-4ad2-bfda-454f859724ca
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 65
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 20
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 65
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Tough for thus decision. Force remain several majority. Table Congress article subject get. Agree example develop young local.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validation JSON schema

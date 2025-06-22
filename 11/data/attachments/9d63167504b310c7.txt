@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjMwOjA3Ljk2NzI5MSIsInVzZXJfaWQiOiJmY2JiYzc5ZC03NTIxLTQwZDQtOGM4ZS05NzJhZTJjYzZiZjQifQ.4Lkjl2eaeTg5H1NUq98UzmMvBHI_0m3Tiw11r9xllTg'\
+ -H 'content-length: 315'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Will coach support remain of sport safe.","courseId":"ea4b4630-d3fe-4ad2-bfda-454f859724ca","maxScore":65,"minScore":20,"orderIndex":65,"description":"Tough for thus decision. Force remain several majority. Table Congress article subject get. Agree example develop young local.","estimatedTime":"6 weeks"}'

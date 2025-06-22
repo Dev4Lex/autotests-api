@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjMwOjA2LjczNjkzMCIsInVzZXJfaWQiOiJjOWQ4NmI5OC1hZDYwLTQ2ZGYtYThkMS05YjI2OWEyM2Y3YzAifQ.KhTqbif2yf4Va1TQ716790ksdAKwywGd5GO_dH24Nw0'\
+ -H 'content-length: 359'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Occur education sense arrive after occur.","maxScore":72,"minScore":23,"description":"Role what other fine watch camera. But health medical especially according. Her should pattern charge behavior late expect.","previewFileId":"ef8b21a0-a5be-4438-b0d6-3e974201fb8d","estimatedTime":"1 weeks","createdByUserId":"c9d86b98-ad60-46df-a8d1-9b269a23f7c0"}'

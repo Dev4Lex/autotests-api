@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjMwOjA2LjE1MTE1MCIsInVzZXJfaWQiOiJiMmFhMzE2ZC1iMTQzLTQyMTYtODkxMC05MWFlMTYwMWZmYTAifQ.GpblTCF8CNcOBh65aW05g90XXM7rAUTxAj5yQQt39Q8'\
+ -H 'content-length: 374'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Size house painting raise.","courseId":"dbd4285f-8b35-4543-8947-4651abd95a79","maxScore":68,"minScore":5,"orderIndex":51,"description":"Expect author go quickly popular. Because impact lot lead military.\nListen ten effect perform various political audience. Prove animal appear anyone allow sister that open. Thousand arm service know.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjMwOjA2LjE1MTE1MCIsInVzZXJfaWQiOiJiMmFhMzE2ZC1iMTQzLTQyMTYtODkxMC05MWFlMTYwMWZmYTAifQ.GpblTCF8CNcOBh65aW05g90XXM7rAUTxAj5yQQt39Q8'\
+ -H 'content-length: 320'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Market but water alone Democrat.","maxScore":77,"minScore":15,"description":"Upon always return three pattern need from newspaper. Society loss career follow firm debate.","previewFileId":"4e8ced5d-7624-44cd-9f7a-bfbd072335d6","estimatedTime":"7 weeks","createdByUserId":"b2aa316d-b143-4216-8910-91ae1601ffa0"}'

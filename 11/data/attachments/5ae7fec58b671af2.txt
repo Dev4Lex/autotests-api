@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/courses/7cbe6530-7d92-4060-a661-d2a10763f8f4\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjMwOjAzLjQyODExMSIsInVzZXJfaWQiOiIyOTI3NTgzNC1mNTBiLTRjYzktOTgyMC05ZjMzYjZlNWY2NmUifQ.2JsaJzxVN_12WMwlwj1umIMDIolmW6pA1b0h9rbC1XU'\
+ -H 'content-length: 318'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Read budget evening level establish into.","maxScore":73,"minScore":24,"description":"Only administration program easy might order have. Star care before policy. Say determine pick direction course speech.\nYard democratic fight other. Tough door investment suggest front improve.","estimatedTime":"1 weeks"}'

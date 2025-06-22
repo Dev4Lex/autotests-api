@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjMwOjA1LjU2ODEzMyIsInVzZXJfaWQiOiI5MWQxM2Q0MS1kMzUxLTRkOGEtODMxNS04ZWEyZDgyMzU3ZjIifQ.Jbm9fq5TKAXCt8haK5yi6000EIbKAlbKIRSEhBpTfD8'\
+ -H 'content-length: 412'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Computer team able country then.","maxScore":51,"minScore":3,"description":"Student try hand answer. Particular ready sit own citizen. Us nothing perform property cultural record detail.\nSubject require president stand do close wide. Prove pressure center drug.","previewFileId":"23d0265d-cbd9-4d8e-9ac3-2a5fc1de5d47","estimatedTime":"9 weeks","createdByUserId":"91d13d41-d351-4d8a-8315-8ea2d82357f2"}'

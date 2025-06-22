@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIyVDIzOjMwOjA3Ljk2NzI5MSIsInVzZXJfaWQiOiJmY2JiYzc5ZC03NTIxLTQwZDQtOGM4ZS05NzJhZTJjYzZiZjQifQ.4Lkjl2eaeTg5H1NUq98UzmMvBHI_0m3Tiw11r9xllTg'\
+ -H 'content-length: 420'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Stock herself tell take.","maxScore":67,"minScore":15,"description":"Try east keep. Reflect parent their behind worry listen network. Someone purpose institution forward.\nPoint it poor safe.\nBlue answer machine. Area hit song week. Cause positive increase radio adult.","previewFileId":"01559768-6bd0-4de8-b0d7-eda56e14d6af","estimatedTime":"2 weeks","createdByUserId":"fcbbc79d-7521-40d4-8c8e-972ae2cc6bf4"}'
