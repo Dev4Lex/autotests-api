@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIzVDEwOjM0OjExLjUwNDgxOSIsInVzZXJfaWQiOiJhYWIwZjA3NS0zOTlmLTQwYWYtYWU1OC0xNGViMmM2MmNkMDYifQ.14Pf9j7ip-4IMFq64vY1iJQ1Cgl7sAQoOap37Ajx7UY'\
+ -H 'content-length: 354'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Professional we free authority room look.","maxScore":50,"minScore":10,"description":"Four spring capital can for with. Source chair present leader third later notice. Happen brother my property marriage.","previewFileId":"41a147e5-6fb1-4855-9bf2-644a707ab847","estimatedTime":"8 weeks","createdByUserId":"aab0f075-399f-40af-ae58-14eb2c62cd06"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIzVDEwOjM0OjEwLjg2NDQ3NyIsInVzZXJfaWQiOiIxYjRkMTFiOS1lNGZkLTQ1NGQtYTY2Mi05OWVkZmViYjgyZWUifQ.QiUWiBZ-n0g5ZOPatoOnxXOpUa_ZHcIT41Db6vAOKd0'\
+ -H 'content-length: 362'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Opportunity day amount movie know.","courseId":"65c55223-b36f-4109-90ec-542adc6e2dc5","maxScore":58,"minScore":22,"orderIndex":15,"description":"Speak east natural health name tough. No wonder party always board poor.\nCourse north everything war world adult social. Need ok wife every car among. Soon product discuss later.","estimatedTime":"7 weeks"}'

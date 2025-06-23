@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIzVDEwOjM0OjEzLjMzNjMyMyIsInVzZXJfaWQiOiIzNTkxNzlkYy1iOTUzLTRlNzUtODc4Yy0wYzhjMTIyZjdiMmMifQ.iU9EcVNmhnHwCRkF0Hix3-sUbBQ0v3Byi1BEcABUuQo'\
+ -H 'content-length: 416'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Painting quite reflect agent budget manager talk.","maxScore":99,"minScore":25,"description":"Dream moment too dog. Sound with yourself stage federal.\nFuture body right administration. Simply number voice top travel. Senior move source gun.\nNear lay woman mission.","previewFileId":"2527e9a5-9760-4e74-a5e2-b00ee380d5c9","estimatedTime":"3 weeks","createdByUserId":"359179dc-b953-4e75-878c-0c8c122f7b2c"}'

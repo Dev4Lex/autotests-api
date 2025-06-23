@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIzVDEwOjM0OjEyLjc0NzcxMyIsInVzZXJfaWQiOiIxYzg4MzVjZi03MjRiLTQyODctYTExMi1iOTdhNjRkNGMzNGEifQ.7sGHP0BqI-hyO7tql6xoX9UWS7LlaukIvMTgLrRdsUo'\
+ -H 'content-length: 420'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Audience over clearly ability well.","maxScore":55,"minScore":10,"description":"Almost land experience money college. Fill pass glass affect father always. Begin high door whom feeling campaign action.\nAlthough individual they more Democrat. Near everybody list family.","previewFileId":"9557d422-0bf1-488e-9f37-4e9e2aa62beb","estimatedTime":"2 weeks","createdByUserId":"1c8835cf-724b-4287-a112-b97a64d4c34a"}'

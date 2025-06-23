@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIzVDEwOjM0OjExLjUwNDgxOSIsInVzZXJfaWQiOiJhYWIwZjA3NS0zOTlmLTQwYWYtYWU1OC0xNGViMmM2MmNkMDYifQ.14Pf9j7ip-4IMFq64vY1iJQ1Cgl7sAQoOap37Ajx7UY'\
+ -H 'content-length: 269'\
+ -H 'content-type: application/json'\
+ -d '{"title":"She benefit generation become.","courseId":"569af92c-b074-4570-88c4-84f90dfef495","maxScore":62,"minScore":22,"orderIndex":88,"description":"Stay nice them product ahead. Short within decision lot full. Process miss likely citizen.","estimatedTime":"1 weeks"}'

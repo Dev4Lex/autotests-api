@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIzVDEwOjM0OjA4Ljc4OTg3MCIsInVzZXJfaWQiOiI2NjY1ZmJmOS00ZGYwLTQxMDUtOWRmNC1lMWMxYzYxNjM0YjAifQ.a6Sr7Bbm-PqqguJkm0IGFt5BsRe88udFrcqP7G-X8cM'\
+ -H 'content-length: 382'\
+ -H 'content-type: application/json'\
+ -d '{"title":"No PM everybody per.","maxScore":66,"minScore":16,"description":"Trouble mention foreign name service including college. Direction out contain. Push until try teacher. Develop on wind family why field really.\nManagement know smile.","previewFileId":"929de6a0-730b-4076-bb7d-45aa80e81289","estimatedTime":"6 weeks","createdByUserId":"6665fbf9-4df0-4105-9df4-e1c1c61634b0"}'

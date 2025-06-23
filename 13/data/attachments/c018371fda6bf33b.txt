@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ http://localhost:8000/api/v1/exercises/00708bd0-2c97-4fb3-bea5-7f1628736d36\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTIzVDEwOjM0OjExLjUwNDgxOSIsInVzZXJfaWQiOiJhYWIwZjA3NS0zOTlmLTQwYWYtYWU1OC0xNGViMmM2MmNkMDYifQ.14Pf9j7ip-4IMFq64vY1iJQ1Cgl7sAQoOap37Ajx7UY'\
+ -H 'content-length: 252'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Represent when consumer capital civil everybody.","maxScore":85,"minScore":8,"orderIndex":4,"description":"Discuss former court home per cover. Court tell education space. Traditional old relate ago girl heavy run.","estimatedTime":"9 weeks"}'
