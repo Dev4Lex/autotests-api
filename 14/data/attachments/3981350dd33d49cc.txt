@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDE1OjIzOjM2LjIzMTkwMSIsInVzZXJfaWQiOiIxZjAwNmE1Ni1mYTI1LTQ0Y2QtOGVhOC00MmM2ZGU0OTcxOWYifQ.L9k_Jo7SjGNOlyX09nTsYV-IU8_H4qmu70U3tP2CQLs'\
+ -H 'content-length: 365'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Financial career deep nor provide left.","maxScore":85,"minScore":17,"description":"Clearly vote number agency expect but accept guy. Hold image hot example article without painting serve.\nHeart good through music.","previewFileId":"718480d7-c458-49d6-8d6f-8f156d18b5d8","estimatedTime":"9 weeks","createdByUserId":"1f006a56-fa25-44cd-8ea8-42c6de49719f"}'

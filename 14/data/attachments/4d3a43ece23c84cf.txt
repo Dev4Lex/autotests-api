@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDE1OjIzOjMzLjgxMDg2NyIsInVzZXJfaWQiOiJlMjZiMzVhZC1hYmFjLTRlMmQtYTdhYS05YmY2MWUwZWVlYzcifQ.Oy-8M-thT3fXvXhPO7Zi75EyAGmRleP5bjGGNxmbuZI'\
+ -H 'content-length: 409'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Information enjoy man source.","maxScore":54,"minScore":27,"description":"Probably cost significant various. City become security me. Number should especially top.\nDevelopment certainly discuss. Guy like general majority. Stop structure but continue science.","previewFileId":"733b12c6-54e1-4290-8a12-03f459e70fc2","estimatedTime":"9 weeks","createdByUserId":"e26b35ad-abac-4e2d-a7aa-9bf61e0eeec7"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDE1OjIzOjMzLjIyNTU3NCIsInVzZXJfaWQiOiIwN2UxNmE5Ni0zMjg4LTQ3NDktODA5Yi1mZmUzZWQwYzQ2MzIifQ.PCI8AzsjbX6i8dJBG2DmUKmEdGX_RzW_3Jqw4kAI7Jc'\
+ -H 'content-length: 404'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Available such simple vote everything accept.","maxScore":99,"minScore":9,"description":"Participant control tree just. Network decision class training director project form. Every measure people relationship source. Under trade between order among look.","previewFileId":"babfa6e1-7c64-4315-bc61-f9c205351c94","estimatedTime":"3 weeks","createdByUserId":"07e16a96-3288-4749-809b-ffe3ed0c4632"}'

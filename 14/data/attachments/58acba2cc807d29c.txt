@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDE1OjIzOjM0LjQ1NDAyOCIsInVzZXJfaWQiOiIyYWNjNzRiYy0xZDg1LTRmYjEtYjYwNy04MDZkMDY0ZjIxOTIifQ.M03eyqb-mMgdqgZ3aEyEz08juwUOYzNkjzGhOu0Kc9A'\
+ -H 'content-length: 394'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Action take ball factor catch poor.","maxScore":73,"minScore":5,"description":"Film time skin. Likely can community develop safe. After theory heavy television.\nFriend customer only believe senior three lawyer begin. Him either eat Mrs raise.","previewFileId":"9eecf941-fa64-4de9-b278-be590b0fa33b","estimatedTime":"10 weeks","createdByUserId":"2acc74bc-1d85-4fb1-b607-806d064f2192"}'

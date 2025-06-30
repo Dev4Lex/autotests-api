@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDE1OjIzOjM1LjY0MDg4MCIsInVzZXJfaWQiOiJiZDUyNTNiNS1mNGFhLTQ5MmUtYTcyZC04M2Q0Yzk5ZmY3YWEifQ.wZ15ziZTGMJysfh4RwR1UL7g2ak-Eu85E68cAKGI4WY'\
+ -H 'content-length: 317'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Single century friend onto.","courseId":"d9c9553e-a46c-4aab-89b4-310e1c115b8e","maxScore":100,"minScore":7,"orderIndex":31,"description":"Order science environmental save six stay. War each health difficult. Skill benefit understand first student pretty. West culture term owner.","estimatedTime":"6 weeks"}'

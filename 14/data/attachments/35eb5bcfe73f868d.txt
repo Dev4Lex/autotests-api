@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDE1OjIzOjM1LjY0MDg4MCIsInVzZXJfaWQiOiJiZDUyNTNiNS1mNGFhLTQ5MmUtYTcyZC04M2Q0Yzk5ZmY3YWEifQ.wZ15ziZTGMJysfh4RwR1UL7g2ak-Eu85E68cAKGI4WY'\
+ -H 'content-length: 403'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Voice amount relationship high especially learn force.","maxScore":95,"minScore":26,"description":"Television share event week seek marriage. More put there production paper or. Design strategy treat company must coach popular.\nPush by save share news.","previewFileId":"f3b6bee3-f457-417e-b51c-97337dc8b720","estimatedTime":"7 weeks","createdByUserId":"bd5253b5-f4aa-492e-a72d-83d4c99ff7aa"}'

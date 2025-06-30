@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/exercises\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDE1OjIzOjM1LjA1NjAxNyIsInVzZXJfaWQiOiJiODdjYzRiOC0xYjNiLTQ0MTMtYjdkMC05MDQ3YzExNzU2YWUifQ.IE-CP9X9vlnCx7B3AZ2jwrA2dcrSohNYM8p09G3qNOE'\
+ -H 'content-length: 295'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Entire exist kitchen sure instead event.","courseId":"32bb6d77-7906-459f-9e17-d12cad37297f","maxScore":76,"minScore":5,"orderIndex":38,"description":"Control face crime claim attack break. Task under read way spend sometimes less skin. Eat behavior explain.","estimatedTime":"8 weeks"}'

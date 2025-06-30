@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDE1OjIzOjM2Ljg3NTc3OSIsInVzZXJfaWQiOiIyODdmOTEzZC03YjkzLTRmM2MtYTliOC03MWYyNGEzNzIwNmIifQ.wuLhHlfVW-eRo2uZy52VEeUbTTnsAV3dlFWtSlglRIU'\
+ -H 'content-length: 407'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Bill performance make able yourself.","maxScore":66,"minScore":18,"description":"Loss information no against decade. They attorney school. Name less discover.\nSmile Republican similar fine put society turn. Since society turn say strategy series available.","previewFileId":"806e889d-719f-4ab9-89eb-bf215f2bda9f","estimatedTime":"5 weeks","createdByUserId":"287f913d-7b93-4f3c-a9b8-71f24a37206b"}'

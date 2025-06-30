@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ http://localhost:8000/api/v1/courses\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTMwVDE1OjIzOjM1LjA1NjAxNyIsInVzZXJfaWQiOiJiODdjYzRiOC0xYjNiLTQ0MTMtYjdkMC05MDQ3YzExNzU2YWUifQ.IE-CP9X9vlnCx7B3AZ2jwrA2dcrSohNYM8p09G3qNOE'\
+ -H 'content-length: 369'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Again response drop.","maxScore":89,"minScore":23,"description":"Indicate realize concern democratic blue weight democratic.\nMay go gas rock ready force surface. Event west check floor. Challenge that Mrs while wrong.","previewFileId":"badee5b8-afcb-42c9-8144-9add8370a435","estimatedTime":"10 weeks","createdByUserId":"b87cc4b8-1b3b-4413-b7d0-9047c11756ae"}'
